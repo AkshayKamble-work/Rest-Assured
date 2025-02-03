@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-31T23:26:15 IST" name="Suite" finished-at="2025-01-31T23:27:33 IST" duration-ms="78257">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC03_SearchTest.testSearchFunctionality(java.lang.String,boolean)[pri:0, instance:testCases.TC03_SearchTest@b83a9be]" name="testSearchFunctionality" class="testCases.TC03_SearchTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC03_SearchTest.testSearchFunctionality(java.lang.String,boolean)[pri:0, instance:testCases.TC03_SearchTest@b83a9be]" name="testSearchFunctionality" class="testCases.TC03_SearchTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-01-31T23:26:15 IST" name="Test" finished-at="2025-01-31T23:27:33 IST" duration-ms="78257">
+      <class name="testCases.TC03_SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC03_SearchTest@b83a9be]" started-at="2025-01-31T23:26:15 IST" name="setup" finished-at="2025-01-31T23:26:33 IST" duration-ms="18387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchFunctionality(java.lang.String,boolean)[pri:0, instance:testCases.TC03_SearchTest@b83a9be]" started-at="2025-01-31T23:26:33 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-01-31T23:26:38 IST" duration-ms="4656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,boolean)[pri:0, instance:testCases.TC03_SearchTest@b83a9be]" started-at="2025-01-31T23:26:38 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-01-31T23:26:39 IST" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,boolean)[pri:0, instance:testCases.TC03_SearchTest@b83a9be]" started-at="2025-01-31T23:26:39 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-01-31T23:26:40 IST" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC03_SearchTest@b83a9be]" started-at="2025-01-31T23:26:40 IST" name="teardown" finished-at="2025-01-31T23:26:40 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC03_SearchTest -->
+      <class name="testCases.TC07_AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC07_AddToCartTest@7d3d101b]" started-at="2025-01-31T23:26:40 IST" name="setup" finished-at="2025-01-31T23:26:56 IST" duration-ms="16076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCartItemDetails()[pri:0, instance:testCases.TC07_AddToCartTest@7d3d101b]" started-at="2025-01-31T23:26:56 IST" name="testCartItemDetails" finished-at="2025-01-31T23:27:12 IST" duration-ms="15333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartItemDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC07_AddToCartTest@7d3d101b]" started-at="2025-01-31T23:27:12 IST" name="teardown" finished-at="2025-01-31T23:27:12 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC07_AddToCartTest -->
+      <class name="testCases.TC_09_PhonesAndPDA">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_09_PhonesAndPDA@30c8681]" started-at="2025-01-31T23:27:12 IST" name="setup" finished-at="2025-01-31T23:27:26 IST" duration-ms="14294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyPhone_PDA()[pri:0, instance:testCases.TC_09_PhonesAndPDA@30c8681]" started-at="2025-01-31T23:27:26 IST" name="VerifyPhone_PDA" finished-at="2025-01-31T23:27:33 IST" duration-ms="6934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPhone_PDA -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_09_PhonesAndPDA@30c8681]" started-at="2025-01-31T23:27:33 IST" name="teardown" finished-at="2025-01-31T23:27:33 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_09_PhonesAndPDA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
